@@ -1,0 +1,8 @@
+node_modules
+
+# 编译文件
+dist
+
+# 编辑器文件
+.idea
+.tag

@@ -1,0 +1,117 @@
+html{
+	height:100%;
+}
+body{
+	height: 100%;
+}
+p{
+	font-family: 'Microsoft Yahei';
+	font-size: 18px;
+}
+#main_context{
+	height: 100%;
+}
+.content {
+	color: #FFFFF0;
+}
+.blockBtn {
+	width: 10%;
+	height: 50px;
+	background-color: #ffc81f;
+	margin: 20px 50px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration : none 
+}
+.blockBtn :hover {
+	background-color: #ffff99;
+}
+.blockBtn .btnFont {
+	text-decoration: none;
+	line-height: 50px;
+	color: #222;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.disable{
+	cursor: not-allowed;
+}
+
+.rol{
+	margin: 10px;
+	display: block;
+	line-height: 18px;
+}
+
+.textInput {
+	padding: 5px 6px;
+	border-radius: 2px;
+	border: #bfcbd9 solid 1px;
+	list-style-type: none;
+	height: 24px;
+	overflow: hidden;
+	line-height: 2em;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
+.textArea {
+	display: inline-block;
+	resize: vertical;
+	padding: 5px 7px;
+	line-height: 1.5;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #1f2d3d;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #bfcbd9;
+	border-radius: 2px;
+	margin: 0 10px;
+	font-family: 'Microsoft Yahei';
+}
+
+.D-btn {
+	display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #bfcbd9;
+    border-color: #c4c4c4;
+    color: #1f2d3d;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.D-btn-red{
+	 color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+.D-btn-green {
+    color: #fff;
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+}
+.D-btn-blue {
+    color: #fff;
+    background-color: #20a0ff;
+    border-color: #20a0ff;
+}
+.D-btn-yello {
+    color: #fff;
+    background-color: #ffc81f;
+    border-color: #ffc81f;
+}
